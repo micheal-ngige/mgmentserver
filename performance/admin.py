@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import PerformanceReview, KPI, UserKPI
 
-# Register your models here.
+admin.site.register(PerformanceReview)
+admin.site.register(KPI)
+admin.site.register(UserKPI)

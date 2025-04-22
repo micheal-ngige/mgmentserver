@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Shift, Attendance, LeaveType, LeaveRequest
 
-# Register your models here.
+admin.site.register(Shift)
+admin.site.register(Attendance)
+admin.site.register(LeaveType)
+admin.site.register(LeaveRequest)
